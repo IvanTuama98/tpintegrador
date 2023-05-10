@@ -1,0 +1,144 @@
+/* Seccion Header */
+.navbar-brand img { max-width: 100px; vertical-align: middle; }
+
+.bg-dark { background: grey!important; }
+
+.navbar-dark .navbar-nav .btn-compra-tickets { color: white; }
+
+@media (min-width: 992px) {
+  .btn-compra-tickets {
+    border: 1px solid transparent;
+    border-radius: .8rem;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+  .btn-compra-tickets:hover,
+  .navbar-dark .navbar-nav .btn-compra-tickets.active {
+    background: grey;
+  }
+}
+
+.pt-section { padding-top: 7rem; }
+
+
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-position: center;
+  background-size: 100%
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+.nav-link {
+  color: grey;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  color: red;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Seccion Estilos - Titulos */
+
+.titulo-gral {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.titulo-gral span {
+  display: block;
+  font-weight: 700;
+  font-size: 2.2rem;
+  font-style: italic;
+}
+
+/* Seccion Carousel*/
+
+.bg-carousel-ba1 { background-image: url(../img/ba1.jpg); }
+.bg-carousel-ba2 { background-image: url(../img/ba2.jpg); }
+.bg-carousel-ba3 { background-image: url(../img/ba3.jpg); }
+
+.carousel {
+  position: relative;
+}
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item svg { opacity: .5; }
+
+.carousel-caption {
+  bottom: 50rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 592px;
+  min-height: 617px;
+}
+
+/* Padding del texto en la seccion Ubicacion*/
+
+.p-4 {
+  background: #333a40;
+}
+
+/* Seccion Formulario*/
+
+#totalPago {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* Seccion Footer*/
+
+#main-footer {
+  background: #1d3c4e;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+#main-footer .nav-link {
+  color: #fff;
+  text-align: center;
+}
+#main-footer .nav-link:hover { opacity: .7; }
+
+@media (min-width: 992px) {
+  #main-footer .nav-link span { display: block; }
+}
